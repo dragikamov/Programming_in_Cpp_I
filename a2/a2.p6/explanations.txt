@@ -1,0 +1,9 @@
+/*
+CH08-320142
+a2 p5.txt
+Dragi Kamov
+d.kamov@jacobs-university.de
+*/
+
+a)"using namespace std;" can be substituted by adding "std::" in front of "string", "cout" and "endl".
+b)If we remove "Critter::" we have two options, either we have everything in one file and not separated and the second option is everything in the header to be in public and in front of "hunger" and "name" we would add "Critter::" and we would be able to access to them because they would be public.
